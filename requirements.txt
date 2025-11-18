@@ -1,0 +1,28 @@
+# 설정 관리
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# 로깅
+loguru==0.7.2
+
+# AI/ML
+torch>=2.0.0
+transformers>=4.35.0
+open-clip-torch>=2.24.0
+
+# 벡터 DB
+qdrant-client>=1.7.0
+
+# API
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# 유틸리티
+Pillow>=10.1.0
+numpy>=1.24.0
+
+# 테스트
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
